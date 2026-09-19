@@ -49,20 +49,44 @@ function checkForDraw(){
 function winnerChickenDinner(){
     if(boxDivs[0].innerText == currentPlayer &&  boxDivs[1].innerText == currentPlayer && boxDivs[2].innerText == currentPlayer){
         alert('You have WON!!!')
+        boxDivs[0].classList.add('winnerBox');
+        boxDivs[1].classList.add('winnerBox');
+        boxDivs[2].classList.add('winnerBox');
     }else if(boxDivs[0].innerText == currentPlayer &&  boxDivs[3].innerText == currentPlayer && boxDivs[6].innerText == currentPlayer){
         alert('You have WON!!!')
+        boxDivs[0].classList.add('winnerBox');
+        boxDivs[3].classList.add('winnerBox');
+        boxDivs[6].classList.add('winnerBox');
     }else if(boxDivs[2].innerText == currentPlayer &&  boxDivs[4].innerText == currentPlayer && boxDivs[6].innerText == currentPlayer){
         alert('You have WON!!!')
+        boxDivs[2].classList.add('winnerBox');
+        boxDivs[4].classList.add('winnerBox');
+        boxDivs[6].classList.add('winnerBox');
     }else if(boxDivs[1].innerText == currentPlayer &&  boxDivs[4].innerText == currentPlayer && boxDivs[7].innerText == currentPlayer){
         alert('You have WON!!!')
+        boxDivs[1].classList.add('winnerBox');
+        boxDivs[4].classList.add('winnerBox');
+        boxDivs[7].classList.add('winnerBox');
     }else if(boxDivs[3].innerText == currentPlayer &&  boxDivs[4].innerText == currentPlayer && boxDivs[5].innerText == currentPlayer){
         alert('You have WON!!!')
+        boxDivs[3].classList.add('winnerBox');
+        boxDivs[4].classList.add('winnerBox');
+        boxDivs[5].classList.add('winnerBox');
     }else if(boxDivs[2].innerText == currentPlayer &&  boxDivs[5].innerText == currentPlayer && boxDivs[8].innerText == currentPlayer){
         alert('You have WON!!!')
+        boxDivs[2].classList.add('winnerBox');
+        boxDivs[5].classList.add('winnerBox');
+        boxDivs[8].classList.add('winnerBox');
     }else if(boxDivs[6].innerText == currentPlayer &&  boxDivs[7].innerText == currentPlayer && boxDivs[8].innerText == currentPlayer){
         alert('You have WON!!!')
+        boxDivs[6].classList.add('winnerBox');
+        boxDivs[7].classList.add('winnerBox');
+        boxDivs[8].classList.add('winnerBox');
     }else if(boxDivs[0].innerText == currentPlayer &&  boxDivs[4].innerText == currentPlayer && boxDivs[8].innerText == currentPlayer){
         alert('You have WON!!!')
+        boxDivs[0].classList.add('winnerBox');
+        boxDivs[4].classList.add('winnerBox');
+        boxDivs[8].classList.add('winnerBox');
     }else{
         
     }
