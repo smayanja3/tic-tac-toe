@@ -143,7 +143,7 @@ boxDivs.forEach(box => {
         //Ternaray (?) acts as a short hand to an if conditional
         // Ternanary (:) expressions
     })
-})
+})+
 
 function checkForDraw() {
     let draw = boxDivs.every((element, index) => boxDivs[index].innerText == 'X' || boxDivs[index].innerText == 'O')
