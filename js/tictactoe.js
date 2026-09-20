@@ -13,7 +13,6 @@
 
 let currentPlayer = 'X'
 
-
 // make html button id of restart
 document.querySelector('#restart').addEventListener('click', restartGame);
 //Select all the 'cells/box' to clear game
