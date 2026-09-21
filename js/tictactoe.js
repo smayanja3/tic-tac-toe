@@ -8,111 +8,6 @@
 
 //okay the gane works now and i want to make it more OOP
 
-
-// class == TicTacToe
-//constructor == () empty 
-//data/ variables = currentPlayer and divs
-//behaviors/ functions = click function/ checkForDraw/ winnerChickenDinner /restartGames
-
-    // class TicTacToe {
-
-    //     constructor() {
-    //         this.currentPlayer = 'X'
-
-    //         this.boxDivs = document.querySelectorAll('.gameBox');
-
-    //         this.boxDivs = Array.from(this.boxDivs)
-
-    //         this.boxDivs.forEach(box => {
-    //             box.addEventListener('click', () => {
-    //                 if (box.innerText != '') {
-    //                     return // <--STOP here and go back to the start
-    //                 }
-
-    //             })
-    //         })
-    //         document.querySelector('#restart').addEventListener('click', () => {
-    //             this.restartGame();
-    //         })
-    //     }
-
-
-
-    // // method of the game
-    // checkForDraw() {
-
-    //     let draw = this.boxDivs.every((element, index) =>
-    //         this.boxDivs[index].innerText == 'X' ||
-    //         this.boxDivs[index].innerText == 'O');
-    //     if (draw) {
-    //         alert("I's a DRAW");
-    //     }
-    // }
-
-    // winnerChickenDinner() {
-
-    //     if (boxDivs[0].innerText == currentPlayer && boxDivs[1].innerText == currentPlayer && boxDivs[2].innerText == currentPlayer) {
-    //         alert('You have WON!!!')
-    //         boxDivs[0].classList.add('winnerBox');
-    //         boxDivs[1].classList.add('winnerBox');
-    //         boxDivs[2].classList.add('winnerBox');
-    //     } else if (boxDivs[0].innerText == currentPlayer && boxDivs[3].innerText == currentPlayer && boxDivs[6].innerText == currentPlayer) {
-    //         alert('You have WON!!!')
-    //         boxDivs[0].classList.add('winnerBox');
-    //         boxDivs[3].classList.add('winnerBox');
-    //         boxDivs[6].classList.add('winnerBox');
-    //     } else if (boxDivs[2].innerText == currentPlayer && boxDivs[4].innerText == currentPlayer && boxDivs[6].innerText == currentPlayer) {
-    //         alert('You have WON!!!')
-    //         boxDivs[2].classList.add('winnerBox');
-    //         boxDivs[4].classList.add('winnerBox');
-    //         boxDivs[6].classList.add('winnerBox');
-    //     } else if (boxDivs[1].innerText == currentPlayer && boxDivs[4].innerText == currentPlayer && boxDivs[7].innerText == currentPlayer) {
-    //         alert('You have WON!!!')
-    //         boxDivs[1].classList.add('winnerBox');
-    //         boxDivs[4].classList.add('winnerBox');
-    //         boxDivs[7].classList.add('winnerBox');
-    //     } else if (boxDivs[3].innerText == currentPlayer && boxDivs[4].innerText == currentPlayer && boxDivs[5].innerText == currentPlayer) {
-    //         alert('You have WON!!!')
-    //         boxDivs[3].classList.add('winnerBox');
-    //         boxDivs[4].classList.add('winnerBox');
-    //         boxDivs[5].classList.add('winnerBox');
-    //     } else if (boxDivs[2].innerText == currentPlayer && boxDivs[5].innerText == currentPlayer && boxDivs[8].innerText == currentPlayer) {
-    //         alert('You have WON!!!')
-    //         boxDivs[2].classList.add('winnerBox');
-    //         boxDivs[5].classList.add('winnerBox');
-    //         boxDivs[8].classList.add('winnerBox');
-    //     } else if (boxDivs[6].innerText == currentPlayer && boxDivs[7].innerText == currentPlayer && boxDivs[8].innerText == currentPlayer) {
-    //         alert('You have WON!!!')
-    //         boxDivs[6].classList.add('winnerBox');
-    //         boxDivs[7].classList.add('winnerBox');
-    //         boxDivs[8].classList.add('winnerBox');
-    //     } else if (boxDivs[0].innerText == currentPlayer && boxDivs[4].innerText == currentPlayer && boxDivs[8].innerText == currentPlayer) {
-    //         alert('You have WON!!!')
-    //         boxDivs[0].classList.add('winnerBox');
-    //         boxDivs[4].classList.add('winnerBox');
-    //         boxDivs[8].classList.add('winnerBox');
-    //     } else {
-
-    //     }
-
-    // }
-
-    // restartGame() {
-
-    //     this.currentPlayer = 'X';
-
-    //     this.boxDivs.forEach(box => {
-    //         box.innerText = '';
-    //         box.classList.remove('winnerBox');
-    //     });
-
-    //     alert('Restart');
-    // }
-    // }
-
-
-
-
 /////ORIGINAL THIS ONE WORKS TRYING TO MAKE THE ABOVE WORK TOO LETS SEE !!!!!
 
 
@@ -143,7 +38,7 @@ boxDivs.forEach(box => {
         //Ternaray (?) acts as a short hand to an if conditional
         // Ternanary (:) expressions
     })
-})+
+})
 
 function checkForDraw() {
     let draw = boxDivs.every((element, index) => boxDivs[index].innerText == 'X' || boxDivs[index].innerText == 'O')
